@@ -1,0 +1,157 @@
+.body {
+  background: whitesmoke;
+}
+
+.image {
+    width: 15px;
+    height: 15px;
+    background: #2db34a;
+    border: 2px solid black;
+  }
+
+.navbar-brand {
+  background: lightseagreen;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.summarycontainer {
+  background: whitesmoke;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.box1 {
+  width: 700px;
+  height: 550px;
+  margin: 20px;
+  background: white;
+  padding: 20px;
+}
+
+.summarytitle {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: lightseagreen;
+}
+
+.picture {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+.box2 {
+  width: 350px;
+  height: 550px;
+  float: right;
+  margin: 20px;
+  background: white;
+  padding: 20px;
+}
+
+.thumbnailtitle {
+  margin-top: 20px;
+  color: lightseagreen;
+}
+
+.thumbnail {
+  width: 150px;
+  height: 150px;
+}
+
+.analysisbox1 {
+  width: 700px;
+  height: 700px;
+  margin: 20px;
+  background: white;
+  padding: 20px;
+}
+
+.analysistitle {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: lightseagreen;
+}
+
+.analysisimage {
+  width: 650px;
+  height: 450px;
+}
+
+.analysisthumbnailtitle {
+  margin-top: 20px;
+  margin-right: 50px;
+  color: lightseagreen;
+}
+
+.comparisoncontainer {
+  margin-top: 25px;
+  background: white;
+}
+
+.comparisonsmaintitle {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: lightseagreen;
+}
+
+.comparisonstext {
+  margin-left: 20px;
+}
+
+.comparisonstitle {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: lightseagreen;
+  text-align: center;
+}
+
+.comparisonimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.datatitle {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: lightseagreen;
+}
+
+.datatext {
+  margin-left:20px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 960px) {
+  .comparisonimage {
+    height: 400px;
+    width: 400px;
+  }
+
+@media (max-width: 720px) {
+  .comparisonimage {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+  .comparisonimage {
+    height: 250px;
+    width: 250px;
+  }
+
+  .navbar {
+    background: lightseagreen;
+  }
+}
+
+
+
+
+
+}

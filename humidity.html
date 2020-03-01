@@ -21,12 +21,12 @@
           <ul class="navbar-nav">
 
             <!-- Home button for Landing Page-->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
             </li>
 
             <!-- Dropdown for Plots selection -->
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Plots
                 </a>
@@ -52,46 +52,35 @@
         </div>
     </nav>
 
-    <!-- Create Summary section and Visualizations section for landing page-->
-    <div class="container summarycontainer"> 
-        <div class="row">
-          <div class = "box1">
-            <h3 class="summarytitle"> Summary: Latitude vs. Weather Elements</h3>
+    <div class="container summarycontainer">
+      <div class="row">
+          <div class="analysisbox1"> 
+            <h3 class="analysistitle"> Humidity </h3>
             <hr>
-            <img class = picture src="Resources/assets/images/Fig1.png" alt="Max Temperature">
-            <p> The purpose of this project was to anlyze how weather changes as you get closer or further from the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on various aspects of the weather for over 500 cities.  
-            </p>
-            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, windspeed and humidity. This site provided the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-          </div>
-        
-          <div class = "box2">
-            <h5 class="thumbnailtitle">Visualizations</h5>
-            <hr>
-            <p>Click on one of the images below for an in-depth analysis.</p>
-            <a href="temperature.html">
-              <img class = "thumbnail" src="Resources/assets/images/Fig1.png" alt="Max Temperature">
-            </a>
-            <a href="humidity.html">
-              <img class = "thumbnail" src="Resources/assets/images/Fig2.png" alt="Humidity">
-            </a>
-            <a href="cloudiness.html">
-              <img class = "thumbnail" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
-            </a>
-            <a href="windspeed.html">
-              <img class = "thumbnail" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
-            </a>
-          </div>
+              <img class="analysisimage" src="Resources/assets/images/Fig2.png" alt="Humidity">
+          <p> Though weak, there seems to be a very slight positive relationship between proximity to the equator (latidude close to 0) and higher humidity. One notable item is that the only cities with 0% humidity all have a latitude above 60 degrees, which supports the weak positive relationship between closeness to the equator and increased humidity.
+          </p>
         </div>
+
+      <div class = "row box2">
+        <h5 class="analysisthumbnailtitle">Visualizations</h5>
+        <div>
+        <hr>
+        <a href="temperature.html">
+          <img class = "thumbnail" src="Resources/assets/images/Fig1.png" alt="Max Temperature">
+        </a>
+        <a href="humidity.html">
+          <img class = "thumbnail" src="Resources/assets/images/Fig2.png" alt="Humidity">
+        </a>
+        <a href="cloudiness.html">
+          <img class = "thumbnail" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
+        </a>
+        <a href="windspeed.html">
+          <img class = "thumbnail" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
+        </a>
+        </div>
+      </div>
     </div>
-
-
-
-
-
-
-
-
-
 
 
 
